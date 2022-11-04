@@ -136,3 +136,6 @@ config.py
 
 #config.js
 config.js
+
+#Ignoring folder that holds the data to prevent issues with having too large of files
+Dog_Breed_Files/
