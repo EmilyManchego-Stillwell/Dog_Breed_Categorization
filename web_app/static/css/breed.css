@@ -1,5 +1,5 @@
  /* Top Nav */ 
-  .topnav {
+ .topnav {
     overflow: hidden;
     background-color: #333;
   }
@@ -24,62 +24,7 @@
     background-color: #6ca40c;
     color: white;
   }
-
- /* Header */ 
- h1 {
-   padding: 70px;
-  text-align: center;
-  color: #324412;
-  font-size: 45px;
-  font-family: "Georgia", serif;
-  font-weight: bold;
-}
-
-
-p {
-    text-align: center;
-    background: white;
-    color: #517b08;
-    font-size: 15px;
-    font-family: "Geogria", serif;
-    font-weight: bold;
-}
-h3 {   
-     text-align: center;
-    background: white;
-    color: #223303;
-    font-size: 25px;
-    font-family: "Georgia", serif;
-    font-weight: bold;}
-
-
-
-form{
-    padding: 80px;
-    background: white;
-    color:#223303;
-    font-size: 25;
-    font-family: "Georgia", serif;
-    font-weight: bold;
-    text-align: center; 
-}
-h3{
-    background: white;
-    color:#223303;
-    font-size: 25;
-    font-family: "Georgia", serif;
-    font-weight: bold;   
-}
-h2{
-    background: white;
-    color:#223303;
-    font-size: 25;
-    font-family: "Georgia", serif;
-    font-weight: bold;  
-    text-align: Center;
-}
-
-/*previous/next*/
+  /*previous/next*/
 a {
     text-decoration: none;
     display: inline-block;
@@ -108,3 +53,12 @@ a {
       min-height: 100vh;
     }
 
+h2{
+        background: white;
+        color:#223303;
+        font-size: 25;
+        font-family: "Georgia", serif;
+        font-weight: bold;  
+        text-align: left;
+    }
+    
