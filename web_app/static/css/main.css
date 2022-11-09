@@ -1,7 +1,7 @@
 
 .header {
     background-image: url("../images/dog_background.jpg");
-    background-size: 100% 105%;
+    background-size: 40% 105%;
     padding: 70px;
     text-align: center;
     color: #324412;
@@ -9,14 +9,46 @@
     font-family: "Garamond", serif;
     font-weight: bold;
   }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: "Garamond", serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #6ca40c;
+    color: white;
+  }
+
+
+
+
 p {
     text-align: center;
     background: #FFFFE0;
     color: #517b08;
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Garamond", serif;
     font-weight: bold;
 }
+
+
+
 form{
     background: #FFFFE0;
     color:#223303;
@@ -31,4 +63,43 @@ h3{
     font-family: "Garamond", serif;
     font-weight: bold;   
 }
- 
+h2{
+    background: #FFFFE0;
+    color:#223303;
+    font-size: 25;
+    font-family: "Garamond", serif;
+    font-weight: bold;  
+    text-align: left;
+}
+/* h2{
+    background: #FFFFE0;
+    color:#223303;
+    font-size: 25;
+    font-family: "Garamond", serif;
+    font-weight: bold;  
+    text-align: right;
+} */
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    font-family: "Garamond", serif;
+    font-weight: bold;  
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: black;
+    color: white;
+  }
+  
+  .next {
+    background-color: #6ca40c;
+    color: white;
+  }
+
