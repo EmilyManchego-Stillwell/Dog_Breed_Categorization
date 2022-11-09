@@ -10,10 +10,10 @@
 
 </head>
 <body>
- <style>body{background-color:#223303}</style>
-  <div class="header">
+ <style>body{background-color:white}</style>
+  <!-- <div class="header">
     <h1>So You Think You Know Your Dog?</h1>
-  </div>
+  </div> -->
 
   <div class="topnav">
     <a class="active" href="#home">Home</a>
@@ -23,29 +23,49 @@
   <br>
   <br>
   </div>
-  <div class="container">    
+  <div class="container">
     <div class="row" id="dog photo">
-      <div class="row" id="dog photo">
-        <form action="/action_page.php">
-          <p>Identify your dog with the click of a button!</p>
-          <h3>Attach Dog Picture Here!</h3>          
-          <label for="img">Select image:</label>
-          <input type="file" id="img" name="img" accept="image/*">
-          <input type="submit">
-        </form>
-      </div>
-  </div>
-  <div class = "container">
-    
-    <h2> This Dog is a...</h2> 
-  </div>
-          
-  <div class = "container">
-    <h2> Information on this Breed: </h2>
-  </div>    
-      
+      <div class="col-md-8">
+    <h1> So You Think You Know You Dog?</h1>
+    <p> With the advances in machine learning, an image can be processed 
+      <br> and identified as being part of a specific group. This particular neural 
+      <br> will take an image of a dog and attempt to classify it with the correct breed.
+      <br>This model has been trained to 80% accuracy. 
+      <br> Have Fun!
+    </p>
 
   </div>
+  <!-- <div class="container">     -->
+    <!-- <div class="row" id="dog photo"> -->
+      <div class="col-md-4">
+        <form action="/action_page.php">          
+          <h3>Attach Dog Picture Here!</h3> 
+          <p>When you attach a photo a neural network will attempt to identify 
+            the breed of dog in the image </p>         
+          <label for="img">Select image:</label>
+          <input type="file" id="img" name="img" accept="image/*">
+          <br>
+          <input type="submit">
+          
+        </form>
+        <br>
+        <br>
+        <br>
+
+
+      </div>
+  <!-- </div> -->
+  <!-- <div class = "container"> -->
+    <!-- <div class="col-md-3">
+      <h2> This Dog is a...</h2>
+    </div>
+    <div class="col-md-4">
+      <h2> Information on this Breed: </h2>
+    </div> 
+  </div> -->
+          
+  
+
   <script src="static/css/main.css"></script>
   <a href="#" class="previous">&laquo; Previous</a>
   <a href="#" class="next">Next &raquo;</a>
