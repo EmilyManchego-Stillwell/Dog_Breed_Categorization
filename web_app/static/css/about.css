@@ -52,12 +52,36 @@ a {
       grid-template-rows: auto 1fr auto;
       min-height: 100vh;
     }
-
-h2{
-        background: white;
-        color:#223303;
-        font-size: 25;
-        font-family: "Georgia", serif;
-        font-weight: bold;  
-        text-align: left;
+h1{
+    background: white;
+    padding: 50;
+    color:#223303;
+    font-size: 35;
+    font-family: "Georgia", serif;
+    font-weight: bold;  
+    text-align: center;
+}
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+h3{    
+    background: white;
+    padding: 70;
+    color:#223303;
+    font-size: 25;
+    font-family: "Georgia", serif;
+    font-weight: bold;  
+    text-align: center;
     }
+p {
+    background: white;
+    padding: 70;
+    color:#517b08;
+    font-size: 25;
+    font-family: "Georgia", serif;
+    font-weight: bold;  
+    text-align: center;  
+}
