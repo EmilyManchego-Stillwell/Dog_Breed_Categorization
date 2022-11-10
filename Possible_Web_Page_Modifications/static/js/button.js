@@ -1,6 +1,7 @@
-var no_box = document.querySelector('.no-box')
+var document = index.html
+var no_box = index.html.querySelector('.no-box')
 			
-var page = d3.select;
+var i = 1;
 
 function prev() {
 
@@ -10,12 +11,12 @@ function prev() {
         // Add disabled attribute on
         // prev button
         document.getElementsByClassName(
-                'prev').disabled = true;
+                'Previous').disabled = true;
 
         // Remove disabled attribute
         // from next button
-        document.getElementsByClassName(
-                'next').disabled = false;
+        index.html.getElementsByClassName(
+                'Next').disabled = false;
     } else {
         i--;
         return setNo();
@@ -25,17 +26,17 @@ function prev() {
 function next() {
 
     // End position
-    if (i == 4) {
+    if (i == 3) {
 
         // Add disabled attribute on
         // next button
         document.getElementsByClassName(
-                'next').disabled = true;
+                'Next').disabled = true;
 
         // Remove disabled attribute
         // from prev button
         document.getElementsByClassName(
-                'prev').disabled = false;
+                'Previous').disabled = false;
     } else {
         i++;
         return setNo();

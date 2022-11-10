@@ -26,34 +26,37 @@
 
   <div class="jumbotron"></div>
 
-  <div class="container-fluid">
+  <div class="brd-box">
     <div class="row">
-      <div class="col-md-6">
-        <h3>Purpose:</h3>
-        <p>
+      <div class="col-md-12">
+        <h3 class="purpose">Purpose:</h3>
+        <p class="purpose">
           Has anyone ever asked you what kind of dog you have, but you really don't know what to tell them?
           Or have you ever been anywhere and ran across a dog that you didn't know what it was but wanted to?
           Then our dog breed identifier might be right for you!
         </p>
       </div>
-      <div class="col-md-6">
-        <h3>Dog Breed Identification:</h3>
-        <p>
-          With the advances in machine learning, an image can be processed 
-          and identified as being part of a specific group. This particular neural 
-          will take an image of a dog and attempt to classify it with the correct breed.<br>
-          This model has been trained to 80% accuracy.<br> 
-          Have Fun!
-        </p>
-      </div>  
+       
     </div>
     
   </div>
   <div class="container-fluid" id="dog_input">
+    <div class="col-md-8">
+      <h3 class="dbi">Dog Breed Identification:</h3>
+      <p class="dbi">
+        With the advances in machine learning, an image can be processed 
+        and identified as being part of a specific group.<br> This particular neural 
+        will take an image of a dog and attempt to classify it with the correct breed.
+      </p>
+      <p class="have_fun">
+        This model has been trained to 80% accuracy.<br> 
+        Have Fun!
+      </p>
+    </div> 
     <div class="col-md-4">
         <form action="/action_page.php">          
-          <h3>Upload Dog Picture Here!</h3> 
-          <p>When you upload a photo, the neural network will attempt to identify 
+          <h3 class="upload">Upload Dog Picture Here!</h3> 
+          <p class="upload_paragraph">When you upload a photo, the neural network will attempt to identify 
             the breed of dog in the image. 
           </p>         
           <label for="img">Select image:</label>
@@ -62,18 +65,32 @@
           <input type="submit">
           
         </form>
-    </div>
-    <!-- Results from machine learning upload -->
-    <div class="col-md-8">
-      <h3>The dog breed of the uploaded dog image is...</h3>
-      <!-- Pop up image of uploaded dog -->
-      <!-- Create label of result -->
-    </div>
+    </div>  
   </div>
+  <div class="container-fluid">
+    <!-- Results from machine learning upload -->
+    <div class="col-md-12">
+      <h3 class="results">The dog breed of the uploaded dog image is...</h3>
+      <!-- Pop up image of uploaded dog -->
+      <!-- Create label of result, which dog breed -->
+    </div> 
+  </div>
+  
+  <div class="container">
+		<div class="no-box">
+			<span class="page">Home Page</span>
+		</div>
 
-  <script src="static/css/main.css"></script>
-  <a href="#" class="previous">&laquo; Previous</a>
-  <a href="#" class="next">Next &raquo;</a>
+		<button class="prev_btn" onclick="prev()">
+			Previous
+		</button>
+
+		<button class="next_btn" onclick="next()">
+			Next
+		</button>
+	</div>
+     
+  <script src="static/css/js/button.js"></script>
 
 </body>
 </html>
