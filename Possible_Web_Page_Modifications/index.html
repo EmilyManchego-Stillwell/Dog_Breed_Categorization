@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/main.css"/>
+
+</head>
+<body>
+ <style>body{background-color:white}</style>
+
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="BreedInfo.html">Breed Information</a> 
+    <a href="about.html">About Us</a>
+  <br>
+  <br>
+  </div>
+
+  <div class="container-fluid">
+    <h1 class="display-2">So You Think You Know Your Dog</h1>
+  </div> 
+
+  <div class="jumbotron"></div>
+
+  <div class="brd-box">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="purpose">Purpose:</h3>
+        <p class="purpose">
+          Has anyone ever asked you what kind of dog you have, but you really don't know what to tell them?
+          Or have you ever been anywhere and ran across a dog that you didn't know what it was but wanted to?
+          Then our dog breed identifier might be right for you!
+        </p>
+      </div>
+       
+    </div>
+    
+  </div>
+  <div class="container-fluid" id="dog_input">
+    <div class="col-md-8">
+      <h3 class="dbi">Dog Breed Identification:</h3>
+      <p class="dbi">
+        With the advances in machine learning, an image can be processed 
+        and identified as being part of a specific group.<br> This particular neural 
+        will take an image of a dog and attempt to classify it with the correct breed.
+      </p>
+      <p class="have_fun">
+        This model has been trained to 80% accuracy.<br> 
+        Have Fun!
+      </p>
+    </div> 
+    <div class="col-md-4">
+        <form action="/action_page.php">          
+          <h3 class="upload">Upload Dog Picture Here!</h3> 
+          <p class="upload_paragraph">When you upload a photo, the neural network will attempt to identify 
+            the breed of dog in the image. 
+          </p>         
+          <label for="img">Select image:</label>
+          <input type="file" id="img" name="img" accept="image/*">
+          <br>
+          <input type="submit">
+          
+        </form>
+    </div>  
+  </div>
+  <div class="container-fluid">
+    <!-- Results from machine learning upload -->
+    <div class="col-md-12">
+      <h3 class="results">The dog breed of the uploaded dog image is...</h3>
+      <!-- Pop up image of uploaded dog -->
+      <!-- Create label of result, which dog breed -->
+    </div> 
+  </div>
+  
+  <div class="container">
+		<div class="no-box">
+			<span class="page">Home Page</span>
+		</div>
+
+		<button class="prev_btn" onclick="prev()">
+			Previous
+		</button>
+
+		<button class="next_btn" onclick="next()">
+			Next
+		</button>
+	</div>
+     
+  <script src="static/css/js/button.js"></script>
+
+</body>
+</html>
