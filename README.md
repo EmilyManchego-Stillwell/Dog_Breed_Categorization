@@ -14,9 +14,12 @@
     - akc-data-latest.csv 
     - Downloaded from the following GitHub profile:
         - https://github.com/tmfilho/akcdata
-        - Licence for the data: https://github.com/tmfilho/akcdata/blob/master/LICENSE 
+        - License for the data: https://github.com/tmfilho/akcdata/blob/master/LICENSE 
 
 ### Communication:
 - Tuesday/Thursday during regular class zoom meets
 - Zoom meets outside of class (as necessary)
 - Slack messages
+
+### Machine Learning:
+- For our project, the machine learning algorithm we decided to work with is a deep neural network, as we are trying to train the machine to recognize images of dogs to then predict what breed a specific dog image belongs to. We have attempted to try and build our own deep neural network from scratch, but have failed to reach any kind of decent accuracy with those attempts. Since we were unable to get higher than 15% accuracy while building our own model from scratch, we decided to use a transfer learning model which has already been trained with large and generalized datasets. There are multiple different transfer learning models available, so we will try a few different ones which will be enhanced with our specific data, and pick one that gives us the best results. Our goal is to use a model that will give us 80% validation accuracy with our testing data.
