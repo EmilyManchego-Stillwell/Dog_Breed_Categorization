@@ -26,7 +26,7 @@
 }
 
   .display-2 {
-    text-align: center;
+    text-align: left;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
   }
@@ -34,14 +34,22 @@
   section {
     padding: 2rem 20%;
   }
+
+  section.h2 {
+    text-align: center;
+  }
   
-  section:nth-child(3) {
+  section:nth-child(2) {
     background: #0ac880;
     color: white;
     clip-path: polygon(0 40%, 100% 0, 150% 100%, 0 150%);
     padding: 10rem 20%;
+    font-family: 'Lato', sans-serif;
   }
-  
+  .th {
+    text-align: center;
+  }
+
   body {
     margin: 0;
     font: 20px/2.2 system-ui;
