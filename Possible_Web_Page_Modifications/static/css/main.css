@@ -20,10 +20,11 @@
     color: black;
   }
   
-  .topnav a.active {
-    background-color: #0ac880;
+  .topnav a.home {
+    background-color: rgba(12, 240, 65, 0.5);
     color: white;
   }
+
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -34,18 +35,18 @@ body {
 }
 
 .header {
-    height: 100vh;
+    height: 75vh;
     background-image: 
-    linear-gradient(to right bottom, 
-     rgba(12, 240, 65, 0.5),
-     rgba(30, 108, 217, 0.6)),
-     url("../Images/dog-4415649-18eab39206426b985f7a5f69e3146a2cd1a56c0d-s1200-c85.jpg");
+    linear-gradient(to right bottom,
+    rgba(12, 240, 65, 0.5),
+    rgba(30, 108, 217, 0.6)),
+    url("../Images/dog-4415649-18eab39206426b985f7a5f69e3146a2cd1a56c0d-s1200-c85.jpg");
     
   background-size: cover;
     background-position: top;
     position: relative;
 
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 50vh, 0 100%);
 }
 
 .text-box {
@@ -105,53 +106,12 @@ body {
   font-size: 14px;
 }
 
-
-
-
-
-  /* .class.container {
-    background-color: #6ca40c;
-    color: white;
-  } 
-  .display-2 {
-    text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-  }
-  .jumbotron {
-    text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 300px;
-    background-color:white;
-    color: #6ca40c;
-  } */
-
-  
  /* Body */
   .brd-box {
     border-bottom: 2px solid #6ca40c;
   }
 
-  h3.purpose {
-    text-align: center;
-    color:#324412;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-style: italic;
-  }
-
   h3.dbi {
-    text-align: center;
-    color:#324412;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-  }
-
-  h3.upload {
     text-align: center;
     color:#324412;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -181,13 +141,6 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-  p.upload_paragraph {
-    text-align: center;
-    color: #456a03;
-    font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-
   p.have_fun {
     text-align: center;
     color: #456a03;
@@ -195,65 +148,6 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
-  form {
-    text-align: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-bottom: 5%;
+  footer {
+    margin-bottom: 26px;
   }
-
-  #dog_input {
-    margin-top: 5%;
-    border-bottom: 2px solid #6ca40c;
-  }
-  label {
-    padding-left: 5px;
-    font-size: 15px;
-    color: #324412;
-  }
-  input {
-    text-align: center;
-    padding-left: 5px;
-    font-size: 15px;
-    color: #324412;
-  }
-
-/*previous/next*/
-  .container {
-    margin-top: 100px;
-    margin-left: 20px;
-  }
-
-  .no-box {
-    padding-left: 5px;
-    font-size: 60px;
-    color: #324412;
-  }
-
-  span {
-    font-size: 15px;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  .prev_btn {
-    background-color: black;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-
-  .next_btn {
-    background-color: #0ac880;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-
-  .prev_btn:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .next_btn:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
