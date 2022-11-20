@@ -4,7 +4,7 @@
 - Image classification for dog breeds.
 
 ### Purpose:
-- Sometimes people are out and about when they see a cute dog that they know nothing about but would like to. My group and I are working on a project that can help people identify a dog's breed based off an image. Our goal is to create a web app that can help people identify what type of dog they run into, and share some basic information about the breed type.<br> [Try it out!](dogbreedpredictor.com)
+- Sometimes people are out and about when they see a cute dog that they know nothing about but would like to. My group and I are working on a project that can help people identify a dog's breed based off an image. Our goal is to create a web app that can help people identify what type of dog they run into, and share some basic information about the breed type.<br> [Try it out!](http://dogbreedpredictor.com)
 
 ### Tools Used:
 - Flask web app
