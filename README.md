@@ -16,6 +16,7 @@
 - Matplotlib.pyplot
 - PIL
 - Joblib (used for a model save, but we ended up using the .h5 file instead)
+- Google Slides
 - Tools for Website Hosting:
     - gunicorn
     - Nginx
